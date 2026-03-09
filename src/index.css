@@ -1,0 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  height: 100vh;
+   background-image: linear-gradient(#846ba0, #3b2358);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,97 @@
+.head {
+    text-align: center;
+    color: #9285a0;
+    border-radius: 2px;
+    margin: 1px auto;
+    background-color: #3e245b;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 5px 0;
+}
+
+.heading {
+    font-size: 20px;
+}
+
+.container {
+    width: 400px;
+    margin: auto;
+    margin-top: 30px;
+    background: #efedf1;
+    color: #262626;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    gap: 10px;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.container hr {
+    height: 1px;
+    border: none;
+    background: #707070;
+}
+
+.container h2 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.container ul li {
+    display: flex;
+    align-items: center;
+    height: 45px;
+    padding-left: 15px;
+    border: 1px solid #686868;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.container ul li:hover {
+    background-color: #8f7ba5;
+    color: white;
+    transform: scale(1.02);
+    transition: 0.2s;
+}
+
+
+.container button {
+    align-self: flex-end;
+    width: 120px;
+    height: 50px;
+    background: #6e5789;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+}
+
+.container button:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+
+.container .index {
+    margin: 2px;
+    font-size: 15px;
+}
+
+.container .correct {
+    background: #d1fae5;
+    border-color: #065f46;
+    color: #065f46;
+}
+
+.container .wrong {
+    background: #ffe4e6;
+    border-color: #be123c;
+    color: #be123c;
+
+}
